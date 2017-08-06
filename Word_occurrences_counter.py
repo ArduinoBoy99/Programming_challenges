@@ -15,7 +15,11 @@ def term_seracher(search_term, f_name):
     f_handle.close()  # closes the file handle
     print(str(occ_counter) + " occurrences found in " + str(file) + " file.")  # prints results
 
-if __name__ == "__main__":
+
+def main():
     term = str(input("Enter word to search for: "))
     file = input("Enter name of the file to search: ")
     term_seracher(term, file)
+
+if __name__ == "__main__":
+    main()
