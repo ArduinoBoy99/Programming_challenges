@@ -18,7 +18,11 @@ def num_reverser(n):
 
     return reversed_number  # returns reversed number as str
 
-if __name__ == "__main__":
+
+def main():
     number_input = input("Enter a number to be reversed: ")
     result = int(number_input)
     print(num_reverser(result))
+
+if __name__ == "__main__":
+    main()
